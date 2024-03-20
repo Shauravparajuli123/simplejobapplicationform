@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Gidugu&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gidugu", sans-serif;
+
+}
+
+.head {
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+
+}
+
+body {
+
+  background-image: url(https://img.freepik.com/premium-photo/plain-blue-background-vertical-backdrop-illustration-with-copy-space_7954-36884.jpg);
+  background-size: contain;
+}
+
+
+
+.form {
+
+  border: 10px transparent solid;
+  background-color: rgb(167, 79, 79);
+  height: 100vh;
+  width: 500px;
+  margin: 0 auto;
+  font-size: 20px;
+
+
+  color: black;
+}
+
+.name {
+
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.firstname {
+  margin-left: 0px;
+  width: 393px;
+  height: 96px;
+}
+
+.lastname {
+  width: 386px;
+  height: 96px;
+  top: 198px;
+  left: 741px;
+  gap: 0px;
+  border-radius: 5px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+
+}
+
+.head {
+  margin-bottom: 10px;
+  width: 635px;
+  height: 82px;
+  top: 70px;
+  left: 306px;
+  gap: 0px;
+  opacity: 0px;
+
+}
+
+
+.email-role {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.email {
+  width: 556.67px;
+  height: 96px;
+  top: 318px;
+  left: 309px;
+  gap: 0px;
+  border-radius: 5px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+
+}
+
+.jobrole {
+  width: 386px;
+  height: 57px;
+  top: 357px;
+  left: 748px;
+  gap: 2px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+
+
+}
+
+.address {
+  margin-top: 20px;
+  top: 475px;
+  left: 309px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+
+}
+
+.cityandpin {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.city {
+  width: 393px;
+  height: 96px;
+  top: 695px;
+  left: 309px;
+  gap: 0px;
+  border-radius: 5px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+
+
+}
+
+.pincode {
+  width: 393px;
+  height: 96px;
+  top: 695px;
+  left: 741px;
+  gap: 0px;
+  border-radius: 5px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+
+
+}
+
+.lastline {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  width: 393px;
+  height: 50px;
+  top: 824px;
+  left: 306px;
+  gap: 0px;
+  border-radius: 5px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+
+}
+
+.cv {
+  width: 393px;
+  height: 50px;
+  margin-top: 0px;
+
+
+
+}
+
+.button {
+
+  margin-left: 400px;
+  color: red;
+  size: 20px;
+  border-radius: 40px;
+  border: 0;
+  font-weight: 600;
+
+  padding: 10px 10px;
+  background-color: rgb(141, 171, 209);
+}
+
+.button:hover {
+  background-color: yellow;
+}

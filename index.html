@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- ================css file link====== -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <!-- =======main box start======= -->
+  <div class="bx">
+    <!-- ========form start===== -->
+    <div class="form">
+
+      <div class="head">
+        <h1>Job Application (Web)</h1>
+
+      </div>
+      <div class="name">
+        <!-- ===========first and last name div======= -->
+        <div class="firstname">
+          <label for="firstname">First Name</label><br>
+          <input type="text" name="firstname" placeholder="Your Given Name" size="40">
+        </div>
+        <div class="lastname">
+          <label for="lastname">Last Name</label><br>
+          <input type="text" name="Lastname" placeholder="Your Last Name" size="40">
+        </div>
+
+      </div>
+      <!-- =========email and role div=========== -->
+      <div class="email-role">
+        <div class="email">
+          <label for="email">Email</label><br>
+          <input type="email" name="email" placeholder="Enter your E-mail" size="40">
+        </div>
+
+        <!-- =========optgroup and option============== -->
+        <div class="jobrole"><label for="Job Role">Job Role</label><br>
+          <select name="Job Role">
+            <optgroup label="Select Job Role "></optgroup>
+            <optgroup label="Frontend Job">
+              <option value="mern">Mern Stack</option>
+              <option value="javascript">Javascript</option>
+              <option value="css">CSS</option>
+
+            </optgroup>
+            <!-- =========second option group========== -->
+            <optgroup label="Backend Job">
+              <option value="express">Express</option>
+              <option value="firebase">Firebase</option>
+              <option value="mongodb">Mongodb</option>
+
+            </optgroup>
+          </select>
+        </div>
+
+      </div>
+      <!-- ========address input============ -->
+      <div class="address">
+        <label for="fulladdress">Address</label><br>
+        <input type="text" name="fulladdress" placeholder="Enter Your Address" size="40">
+      </div>
+      <!-- ==========city and pincode======== -->
+      <div class="cityandpin">
+        <div class="city">
+          <label for="city">City</label><br>
+          <input type="text" name="city" placeholder="enter your city name" size="40">
+        </div>
+        <div class="pincode">
+          <label for="pincode">Pincode</label><br>
+          <input type="text" name="pincode" placeholder="enter your pincode" size="40">
+        </div>
+
+      </div>
+      <!-- =============date========= -->
+      <div class="lastline">
+        <div class="date">
+          <label for="date">Start Date</label>
+          <input type="date" name="date">
+        </div>
+        <!-- ===========file input============= -->
+        <div class="cv">
+          <label for="file">Upload Your CV</label>
+          <input type="file" name="file">
+        </div>
+      </div>
+      <!-- =========apply now============== -->
+
+      <button class="button">Apply Now</button>
+
+
+    </div>
+  </div>
+
+  <body>
+
+  </body>
+
+</html>
